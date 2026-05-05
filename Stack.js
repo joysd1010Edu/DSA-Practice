@@ -1,3 +1,5 @@
+
+// ========================= Stack using Array ========================
 class StackWithArray {
   constructor() {
     this.stack = [];
@@ -32,6 +34,8 @@ class StackWithArray {
     return result;
   }
 }
+
+
 const stack = new StackWithArray();
 stack.push(1);
 stack.push(2);
